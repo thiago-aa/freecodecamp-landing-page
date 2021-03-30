@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>DiVinum Wines</h1>
+    <header id="header">
+        <div class="logo">
+            <img 
+            id="header-img"
+            src="https://img.icons8.com/pastel-glyph/64/000000/wine-bottle--v2.png"
+            />DiVinum
+        </div>
+        <nav>
+            <a href="#quality">Quality</a>
+            <a href="#origin">Origin</a>
+            <a href="#pricing">Pricing</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="video">  
+            <p>Check out our wine production procces.</p>
+            <iframe 
+                height="315"
+                width="560" 
+                src="https://www.youtube.com/embed/7gquYRxLMFI" 
+                frameborder="0" 
+                allowfullscreen
+            ></iframe>
+        </div>
+        <div>    
+            <div class="atribute" id="quality">
+                <img
+                    style="width: 80px; height: auto;" 
+                    src="https://www.flaticon.com/svg/vstatic/svg/3884/3884972.svg?token=exp=1617125084~hmac=a67eb17fb90205aa6b0f9aee612bd0ce" 
+                    alt="barrels icon">
+                <p>
+                    Our wine has the quality assured by the best wine sommelier in the world.
+                    <br/> "I assure the quality" - sommelier, the best.
+                </p>
+            </div>
+            <div class="atribute" id="origin">
+                <img 
+                style="width: 80px; height: auto;"
+                src="https://www.flaticon.com/svg/vstatic/svg/2771/2771215.svg?token=exp=1617127750~hmac=012357216c887912ff79c3135a4f33e3" 
+                alt="grape icon">
+                <p>
+                    Our grapes have their origin in the lands of volcanic soil
+                </p>
+            </div>
+        </div>
+        <form action=" https://www.freecodecamp.com/email-submit">
+            <label>
+                Enter your email to receive our sales
+                <input type="email" placeholder="Email">
+            </label>
+            <input class="button" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
